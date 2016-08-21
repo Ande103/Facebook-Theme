@@ -78,6 +78,6 @@
   
 /* Remove ads & games */ 
   
-  #pagelet_canvas_nav_content, #pagelet_ego_pane, #u_jsonp_17_x{
+  #pagelet_canvas_nav_content, #pagelet_ego_pane, #u_jsonp_17_x, ._3u15{
     display: none !important;
   }
