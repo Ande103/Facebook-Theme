@@ -11,7 +11,7 @@ You need the Stylish plugin for Mozilla Firefox to use this<br>
 Website:<br>
 https://userstyles.org/<br>
 Pluggin:<br>
-https://addons.mozilla.org/sv-se/firefox/addon/stylish/<br><br>
+https://addons.mozilla.org/sv-se/firefox/addon/stylish/<br>
 
 Download the Zip file from the Releases section<br>
 https://github.com/Ande103/Facebook-Theme/releases/tag/V1.0 <br>
