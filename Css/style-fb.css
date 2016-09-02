@@ -3,8 +3,8 @@
 @-moz-document domain("facebook.com") {
   
 /* Backgrounds Color & Image */
-  
-  ._5vb_, ._5vb_ #contentCol{ 
+
+  ._5vb_, #contentCol{ 
     background-color: transparent !important;
   }
   
@@ -16,7 +16,7 @@
        background-size: cover !important;
   }
   
-  ._4-u8, #leftCol, #pageFooter{
+  ._4-u8, #leftCol, #pageFooter, #pagelet_pinned_posts{
     background-color: rgba(245, 245, 245, 0.93) !important;
   }
    ._3en1, ._1mwp, ._5ss8{
@@ -65,19 +65,101 @@
   ._2xk0._5vb_.hasLeftCol #leftCol{
     padding-left: 5px !important;
     width: 175px !important;
-    
   }
   
   #leftCol{
     margin-top: 11px !important;
   }
   
+  #pageFooter{
+    margin-top: 4px !important;
+    padding-left: 5px !important;
+  }
+  
   ._502f .rhcFooterWrap, ._502f .rhcFooterWrap a{
     text-shadow: none;
   }
   
+  ._5vb_, ._5vb_, #contentCol, #mainContainer{
+    border: 0px !important;
+  }
 /* Remove ads & games */ 
   
   #pagelet_canvas_nav_content, #pagelet_ego_pane, #u_jsonp_17_x, ._3u15{
     display: none !important;
   }
+}
+
+/* Settings Page */
+@-moz-document url-prefix(https://www.facebook.com/settings) {
+  #headerArea, #SettingsPage_Content {
+    background-color: rgba(245, 245, 245, 0.93) !important;
+  }
+  #headerArea{
+    border-radius: 2px 2px 0px 0px !important;
+  }
+  #SettingsPage_Content{
+    border-radius: 0px 0px 2px 2px !important;
+  }
+  
+  #headerArea H2{
+    padding-left: 5px !important;
+  }
+  .uiSideNav .item, .uiSideNav .subitem, .hasLeftCol #contentCurve{
+    border: none;
+  }
+  #pageFooter #contentCurve{
+    display: none !important;
+  }
+  .mvl{
+    margin-top: 0px !important;
+  }
+}
+
+/* Settings Page Pay */
+@-moz-document url-prefix(https://secure.facebook.com/settings?){
+  ._ohe li, ._50f8{
+    background-color: rgba(245, 245, 245, 0.93) !important;
+    border-radius: 2px !important;
+  }
+  ._ohe li{
+    margin: 0px 0px 0px 5px;
+  }
+ ._ohe li:hover{
+    background-color: rgba(240, 240, 240, 0.93) !important;
+  }
+  ._50f8{
+    padding: 2px !important;
+  }
+  ._2k20{
+    border: 0px !important;
+  }
+  ._5vx1{
+    margin-left: 7px !important;
+  }
+  .uiSideNav .item, .uiSideNav .subitem, .hasLeftCol #contentCurve{
+    border: none;
+  }
+  #pageFooter #contentCurve{
+    display: none !important;
+  }
+  .mvl{
+    margin-top: 0px !important;
+  }
+}
+
+/* Event Page */
+@-moz-document url-prefix(https://www.facebook.com/events){
+  ._5k5{
+     background-color: rgba(245, 245, 245, 0.93) !important;
+     border-radius: 2px !important;
+  }
+  
+}
+
+/* Event Page Calendar */
+   @-moz-document url-prefix(https://www.facebook.com/events/calendar){
+     .fbCalendarGridRoot #fbCalendarWrapper{
+       background-color: transparent !important;
+     }
+}
