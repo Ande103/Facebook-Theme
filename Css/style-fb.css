@@ -12,12 +12,15 @@
        background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/nice-clean-hd-art.jpg") !important;
        background-repeat: no-repeat !important;
        background-attachment: fixed !important;
-    	 background-position: center !important; 
+	   background-position: center !important; 
        background-size: cover !important;
   }
   
-  ._4-u8, #leftCol, #pageFooter, #pagelet_pinned_posts{
+  ._4-u8, #pageFooter, #pagelet_pinned_posts, ._5umn, ._v_1, ._4bl7{
     background-color: rgba(245, 245, 245, 0.93) !important;
+  }
+  #leftCol {
+	  background-color: none !important;
   }
    ._3en1, ._1mwp, ._5ss8{
     background-color: rgba(250, 250, 250, 1) !important;
@@ -64,7 +67,13 @@
 
   ._2xk0._5vb_.hasLeftCol #leftCol{
     padding-left: 5px !important;
+	padding-top: 0px !important;
+	margin-top: 0px !important;
     width: 175px !important;
+  }
+  
+  ._5umn {
+    margin-bottom: 0px !important;
   }
   
   #leftCol{
