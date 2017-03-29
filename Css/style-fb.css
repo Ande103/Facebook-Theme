@@ -1,26 +1,39 @@
+/* Facebook Theme v2.0
+https://github.com/Ande103/Facebook-Theme/
+
+Using Sniglet font frome Haley Fiege at Google Fonts.
+https://fonts.google.com/specimen/Sniglet
+*/
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("facebook.com") {
   
-/* Backgrounds Color & Image */
+/* Fonts */
+  @font-face {
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sniglet Regular'), local('Sniglet-Regular'), url(https://fonts.gstatic.com/s/sniglet/v8/YKExnnK0h4dXQs9TX8CgrgLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+  }
+  
+  #facebook ._-kb span, #facebook ._-kb div, #facebook .sf ._2s25{ 
+  font-family: 'Sniglet', cursive;
+  letter-spacing: 0.05em !important;
+  }
+/* Backgrounds Color */
 
-  ._5vb_, #contentCol{ 
-    background-color: transparent !important;
+  ._5vb_, #contentCol, ._5vb_ #contentCol, ._4lh, ._4-u5, ._oe1, ._5tuq, ._2tk, ._19z6{ 
+    background-color: #222233 !important;
+  }
+  ._45mq a{ 
+  color: #365899;
   }
   
-  Body{
-       background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/nice-clean-hd-art.jpg") !important;
-       background-repeat: no-repeat !important;
-       background-attachment: fixed !important;
-	   background-position: center !important; 
-       background-size: cover !important;
-  }
-  
-  ._4-u8, #pageFooter, #pagelet_pinned_posts, ._5umn, ._v_1, ._4bl7{
+  ._4-u8, #pageFooter, #pagelet_pinned_posts, ._5umn, ._v_1, ._5c_6, ._16ve{
     background-color: rgba(245, 245, 245, 0.93) !important;
   }
-  #leftCol {
-	  background-color: none !important;
+  #leftCol, ._4bl7{
+    background-color: none !important;
   }
    ._3en1, ._1mwp, ._5ss8{
     background-color: rgba(250, 250, 250, 1) !important;
@@ -67,12 +80,12 @@
 
   ._2xk0._5vb_.hasLeftCol #leftCol{
     padding-left: 5px !important;
-	padding-top: 0px !important;
-	margin-top: 0px !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
     width: 175px !important;
   }
   
-  ._5umn {
+ ._5umn {
     margin-bottom: 0px !important;
   }
   
@@ -163,6 +176,16 @@
      background-color: rgba(245, 245, 245, 0.93) !important;
      border-radius: 2px !important;
   }
+  ._v_1{
+    padding-left: 5px !important;
+    padding-top: 5px !important;
+    margin-top: 0px !important;
+    width: 160px !important;
+    border-radius: 2px !important;
+  }
+  #leftCol {
+    padding-top: 0px !important;
+  }
   
 }
 
@@ -171,4 +194,14 @@
      .fbCalendarGridRoot #fbCalendarWrapper{
        background-color: transparent !important;
      }
+}
+
+/* bg for left sidebar and radius */
+._55y4, .fbxWelcomeBoxSmall{
+  background-color: rgba(245, 245, 245, 0.93) !important;
+  border-radius: 2px !important;
+}
+
+.sideNavItem, .homeSideNav h4, ._3075{
+  padding-left: 5px !important;
 }
