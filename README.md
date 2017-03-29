@@ -7,7 +7,7 @@ Using Sniglet font frome Haley Fiege at Google Fonts.<br>
 Website for the fonts<br>
 https://fonts.google.com/specimen/Sniglet<br>
 Preview: <br> 
-![alt tag](/img/fb-preview.PNG)<br>
+![alt tag](https://raw.githubusercontent.com/Ande103/Facebook-Theme/master/Img/fb-preview.PNG)<br>
 <br>
 # Install<br>
 You need the Stylish plugin for Mozilla Firefox to use this.<br>
